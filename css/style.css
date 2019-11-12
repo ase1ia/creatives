@@ -1,0 +1,527 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Gotham, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    color:black;
+}
+
+.logo-link{
+    transition: 0.4s;
+    float: left;
+    position: absolute;
+    left: 186px;
+    top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 38px 0px 38px 100px;
+    border-bottom: 1px solid rgba(190, 187, 187, 0.5);
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding-left: 0;
+    position: relative;
+}
+
+.menu li{
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.menu a{
+    color:white;
+    font-family: Myriad Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px 6px;
+    transition: 0.5s ease;
+    text-transform: capitalize;
+}
+
+.social-media{
+    list-style: none;
+    margin: auto;
+    display: flex;
+    padding-left: 0;
+    position: absolute;
+    right: 125px;
+}
+
+.social-media li{
+    padding-right: 26px;
+    box-sizing: border-box;
+}
+
+
+.social-media img {
+    width: 20px;
+    float:left;
+    margin:0;
+}
+
+.social-media i{
+    color: #fff;
+
+}
+
+#hero{
+    background: url(../img/bg.png) no-repeat center top/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-content{
+    max-width: 60%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 17px;
+    bottom: 0;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+
+.text h1{
+    font-family: Gotham, sans-serif;
+    font-weight: bold;
+    font-size: 152px;
+    color:white;
+    text-transform: uppercase;
+}
+
+.text p{
+    font-family: Gotham, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color:#11749e;
+    letter-spacing: 19px;
+    text-transform: uppercase;
+    padding-left: 27px;
+    margin: 0;
+}
+
+.button{
+    font-family: Gotham, sans-serif;
+    letter-spacing: 0.05em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: white solid 2px;
+    padding: 14px 21px;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+.button i{
+    font-size: 26px;
+}
+
+.button-wrapper p{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+}
+
+#aboutus{
+    background-color: #11749e;
+    padding-bottom: 129px;
+    padding-top: 140px;
+}
+
+#aboutus .aboutus-header{
+    font-family: Myriad Pro, sans-serif;
+    font-size: 37px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 174px;
+    text-align: center;
+    margin-bottom: 144px;
+    position: sticky;
+}
+
+#aboutus .container{
+    position: relative;
+}
+
+.big-w{
+    position: absolute;
+    font-size: 247px;
+    margin: 0;
+    font-weight: 300;
+    bottom: 244px;
+    right: 464px;
+    color: #5993b2;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i{
+    color: white;
+    font-size: 34px;
+    border: 2px solid #2e85aa;
+    border-radius: 100%;
+    padding: 40px;
+    text-align: center;
+    background-color: #2e85aa;
+}
+
+.text-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 23px;
+}
+
+.text-about p{
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.text-about h3{
+    font-family: Gotham, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#third{
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.text-third-dark {
+    background-color: #222222;
+    color: white;
+    padding: 74px 75px 74px 156px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dater{
+    font-size: 14px;
+    font-family: Gotham, sans-serif;
+}
+
+.header-third{
+    font-size: 25px;
+    font-family: Gotham, sans-serif;
+}
+
+.article{
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+}
+.article-2{
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+}
+
+.third-pic img{
+    width: 720px;
+}
+
+.text-third-light {
+    background-color: #f3f3f3;
+    color: black;
+    padding: 66px 156px 66px 75px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 14px;
+}
+
+.dater{
+    font-size: 14px;
+    font-family: Gotham, sans-serif;
+}
+
+.header-third{
+    font-size: 25px;
+    font-family: Gotham, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.article{
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+}
+.article-2{
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+}
+
+.third-pic-2 img{
+    width: 720px;
+    margin-left:15px;
+}
+
+#fourth{
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#fourth .fourth-header{
+    font-family: Gotham, sans-serif;
+    color: black;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 174px;
+    text-align: center;
+    margin-bottom: 144px;
+    position: sticky;
+}
+
+.big-b{
+    position: absolute;
+    font-size: 247px;
+    margin: 0;
+    font-weight: 500;
+    right: 636px;
+    top: -159px;
+    color: #d7d7d7;
+}
+
+.txt-fourth{
+    font-size: 30px;
+    font-family: Gotham, sans-serif;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: -46px;
+
+}
+
+.blog-header{
+    font-family:Gotham, sans-serif ;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #85b8cd;
+    text-align: center;
+    font-weight: 500;
+    margin: 50px 0px 30px 0px;
+}
+
+.blog-article{
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 30px;
+    color: black;
+}
+
+#fourth img{
+    margin-left: 9px;
+}
+
+#fifth{
+    background-color: #11749e;
+    padding:100px 0;
+}
+
+.col-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-fifth{
+    font-size: 60px;
+    color:white;
+}
+
+.fifth-txt{
+    font-size: 15px;
+    font-family: Gotham, sans-serif;
+    color: white;
+    padding: 0 36px;
+}
+
+#sixth{
+    background: url(../img/bg-six.png) no-repeat center top/cover;
+    position: relative;
+    height: 100vh;
+}
+
+#sixth h3 , p{
+    color: white;
+    font-family: Gotham, sans-serif;
+}
+
+.six-header{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.p1{
+    font-size: 15px;
+}
+
+.p2{
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid  #11749e;
+    padding: 4px 135px 4px 25px;
+    background-color:  #11749e;
+}
+
+.p3{
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid  #11749e;
+    padding: 4px 217px 4px 25px;
+    background-color:  #11749e;
+}
+.p4{
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid  #11749e;
+    padding: 4px 152px 4px 25px;
+    background-color:  #11749e;
+}
+
+.six-txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    padding: 165px 135px 145px 25px;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 77px;
+}
+
+#seventh{
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.seventh-header{
+    font-family: Gotham, sans-serif;
+    color: black;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 174px;
+    text-align: center;
+    margin-bottom: 144px;
+    position: sticky;
+}
+
+.big-t{
+    position: absolute;
+    font-size: 247px;
+    margin: 0;
+    font-weight: 500;
+    right: 636px;
+    top: -159px;
+    color: #d7d7d7;
+}
+
+.txt-seventh{
+    font-size: 30px;
+    font-family: Gotham, sans-serif;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: -46px;
+    color:black;
+
+}
+
+.team-header{
+    font-family:Gotham, sans-serif ;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #85b8cd;
+    text-align: center;
+    font-weight: 500;
+}
+
+.team-position{
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 30px;
+    color: black;
+    margin: 0;
+}
+
+#seventh img{
+    position: relative;
+}
+
+.member{
+    position: absolute;
+    border: 2px white solid;
+    background-color: white;
+    padding: 16px 46px;
+    bottom: -39px;
+    right: 32px;
+}
+
+footer{
+    background-color: #222222;
+    padding: 0 20px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    font-size: 13px;
+}
